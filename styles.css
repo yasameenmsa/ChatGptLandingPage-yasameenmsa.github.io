@@ -1,0 +1,284 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color:#403D58;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+ }
+  nav{
+    margin: 30px;
+  }
+  header a {
+    flex: 9;
+    color:#F2EFEA;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  header a:hover {
+    border-bottom: 2px solid #DBD56E;
+  }
+  /* Hero Section */
+  .hero {
+    text-align: justify;
+    background-image: url('hero-image.jpeg');
+    background-size: cover;
+    background-position: center;
+    height:auto ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+  }
+    .hero h2 {
+    color: #fff;
+    font-size: 40px;
+  }
+
+.content {
+    width: 50%;
+    color:#F2EFEA;
+    font-size: 32px;
+    flex: 1; 
+    padding: 20px;
+    flex-direction: row; 
+    align-items: center; 
+    }
+
+
+  .imges{
+    display: flex;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex: 1;
+    text-align: center;
+    flex-direction: column;
+    align-items: center
+
+
+      }
+
+  img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 30px;}
+
+  .titleh2 {
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  .Prg{
+    margin-left: 5%;
+  }
+
+  #learn_More_btn{
+    margin: 5%;
+    margin-left: 5%;
+  }
+  .btn {
+    --primary-color: #ff9900; 
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .content .btn:hover {
+    background-color: #F2EFEA;
+    color: #403D58;
+  }
+
+  /* Sections */
+  .Start{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+  }
+#featurestitle{
+    text-align: center;
+    padding: 10px 20px;
+}
+/* Features Section */
+.features {
+    text-align: justify;
+    padding: 50px;
+    color: #191530;
+  }
+  
+  .features h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .features ol {
+    list-style: bold 30px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .features li {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .features li strong {
+    font-weight: bold;
+  }
+  
+
+  .Guide h2 {
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    color: #191530;
+  }
+  .Guide {
+    width: 100%;
+  }
+#Guide_btn{
+    margin-bottom: 20%;
+}
+
+.Guide_img1{
+    background-image:url("gudeChatGPT.png") ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px ;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end; 
+    margin-bottom: 0%;
+    text-align: center; 
+    justify-content: center;
+    display: flex;
+
+}*/
+#star{
+margin: auto;
+}
+
+.btn:hover {
+    background-color: #F2EFEA;
+    color: #403D58;
+  }
+
+/* Footer Styles */
+.footer {
+    background-color: #191530;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+a{
+    text-decoration: none;
+}
+  #Yasmin {
+    color: #fff;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media screen and (max-width: 720px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header a {
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 10px 0;
+    }
+    .hero{display: block;}
+    .hero h2 {
+      font-size: 24px;
+    }
+   .Guide_img1{
+        width: 100%;
+        height: 90%;
+        background-size: cover;
+        background-position: center;
+        justify-content: baseline;
+        display: flexbox;
+    }
+    #Guide_btn{
+        margin-bottom:10px;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: 0;
+        width: 400px;    }
+    
+    .content {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .titleh2 {
+        align-items: center;
+        margin: 0%;
+        margin-top: 5%;
+      }
+    .Prg{
+        width: 90%;
+        margin: 0;
+        padding: auto;
+    }
+
+    #learn_More_btn{
+        margin-top: 0%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        align-items: center;
+      }
+    .image {
+        margin-top: 20px;
+    }
+
+    .btn , .Prg {
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+    .features,
+    .pricing,
+    .products {
+      padding: 30px;
+    }
+  
+    .corner-btn {
+      bottom: 10px;
+      right: 10px;
+    }
+  
+    .btn {
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+  }
+  
